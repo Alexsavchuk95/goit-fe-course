@@ -1,0 +1,73 @@
+@media (max-width:768px) {
+    header{
+        background: url(../img/Vector\ Smart\ Object.png);
+        background-repeat: no-repeat;
+        height: 540px;
+        background-size: cover;
+    }
+
+    .container-head{
+        width: 320px;
+    }
+
+    .identification{
+        margin: 0 auto;
+        flex-direction: column-reverse;
+    }
+
+    .enter{
+    margin-bottom: 120px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    .container{
+        width: 320px;
+        padding-top: 66px;
+    }
+
+    .card-list{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 0 auto 26px;
+    }
+    .title-add{
+        width: 220px;
+    }
+
+    .title-about{
+        margin-bottom: 36px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1440px){
+    header{
+        background: url(../img/Vector\ Smart\ Object\ tab.png);
+        background-repeat: no-repeat;
+        background-color: #1a1915;
+        background-size: cover;
+    }
+
+    .container-head{
+        width: 660px;
+    }
+
+    .container{
+        width: 492px;
+    }
+
+    .card{
+        width: 236px;
+        margin-bottom: 56px;
+    }
+
+    .card-list{
+        flex-wrap: wrap;
+    }
+    .title-add{
+        width: 220px;
+    }
+} 

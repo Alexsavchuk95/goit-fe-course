@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-head{
+    width: 942px;
+    height: 646px;
+    padding-top: 38px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    width: 942px;
+    margin: 0 auto;
+    padding: 72px 0px 0px;
+    text-align: center;
+}
+
+header{
+    background: url(../img/Vector\ Smart\ Object\ des\ v2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a1915;
+    width: 100%;
+    height: 700px;
+}
+
+
+
+
+.identification{
+    display: flex;
+    text-align: center;
+    margin-bottom: 148px;
+    justify-content: space-between;
+}
+
+.btn-log{
+    justify-items: flex-start;
+    border: solid 0px;
+    margin-right: 22px;
+    height: 36px;
+    width: 90px;
+}
+
+button{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 0px;
+    background: inherit;  
+}
+
+.btn-sign:hover{
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+}
+
+.btn-log:hover{
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+}
+
+.btn-sign{
+    border-radius: 20px;
+    height: 36px;
+    width: 90px;
+}
+
+.title-item{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.title-about {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+  
+.title {
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+
+
+.site-title{
+    text-align: center;
+    margin-bottom: 34px;
+}
+.title-add {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin:0 auto 34px;
+}
+
+.btn-find {
+    border-radius: 20px;
+    background-color: #ff4e50;
+    width: 282px;
+    height: 40px;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+
+.card{
+    text-align: center;
+    width: 220px;
+}
+
+.partner-item{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon{
+    position:absolute;
+    top: 92px;
+    right: 50px;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+    background: #ff4e50;
+    height: 34px;
+    width: 34px;
+}
+
+.icon-item{
+    padding: 4px;
+}
+
+.icon-2{
+    background-color: #ffa507;
+}
+
+.icon-3{
+    background-color: #1cd7ad;
+}
+
+.icon-4{
+    background-color: #4e73db;
+}
+
+.btn-footer{
+    margin: 28px 20px;
+    border:solid 2px #ff4e50;
+    background: inherit;
+    border-radius: 20px;
+    width: 282px;
+    height: 40px;
+    color: #ff4e50;
+}
+
+
+p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+}
+
+h3{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+
+.Share_your_holiday_dreams {
+    font-size: 52px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 476.844px;
+    top: 213.213px;
+    z-index: 46;
+  }
+  
