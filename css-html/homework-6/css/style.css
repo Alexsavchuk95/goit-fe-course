@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    padding: 20px 0 20px;
+    margin: 0px 0px 102px;
+    background-image: url(../img/Layer\ 15.png);
+    height: 1000px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 168px;
+}
+
+
+ul{
+    display: flex;
+}
+
+.logo{
+    float: left;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: bold;
+}
+
+  
+.menu{
+    width: 100px;
+}
+
+.nav-btn{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 82px;
+}
+
+.title-icon{
+    border: 0 solid;
+    background: inherit;
+    height: 16px;
+    width: 18px;
+    background-image: url(../icons/SHOPPING\ CART.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.title-icon:hover{
+    cursor: pointer;
+}
+
+.icone-snd{
+    background-image: url(../icons/MAGNIFYING\ GLASS.png);
+}
+
+
+.title-head{
+    margin: 0 auto;
+    width: 802px;
+    text-align: center;
+}
+
+.title-btn {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    text-transform: uppercase;
+    width: 158px;
+    height: 38px;
+}
+
+.title-btn:hover{
+    cursor: pointer;
+}
+
+
+.banner-title {
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(255, 255, 255);
+    line-height: 140px;
+    font-weight: 300;
+}
+  
+
+.banner-title2 {
+  font-size: 150px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 126px;
+}
+
+
+.title-btn{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.first{
+    text-align: center;
+    margin-bottom: 112px;
+    line-height: 1.2;
+}
+
+.second{
+    margin-bottom: 84px;
+}
+
+  
+
+.title-about{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(51, 51, 51);
+}
+
+a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-weight: 400;
+}
+
+a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(252, 227, 138);
+    top: 24px;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 0s;
+    transform-origin: 0 0;
+}
+.Rectangle_5_copy_6 {
+    background-color: rgb(243, 129, 129);
+    position: absolute;
+    left: 1071px;
+    top: 62px;
+    width: 50px;
+    height: 3px;
+    z-index: 86;
+  }
+  
+
+a:hover::before{
+    transform: scaleX(1);
+}
+a:hover{
+    color: rgb(252, 227, 138);
+}
+
+
+.title{
+    position: relative;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+}
+
+.title::after{
+    position: absolute;
+    content:"";
+    background-color: rgb(243, 129, 129);
+    left: 562px;
+    top: 64px;
+    width: 60px;
+    height: 3px;
+}
+
+.service-item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1182px;
+    margin: 0 auto;
+}
+
+
+.list-items{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    line-height: 24px;
+    width: 380px;
+    padding-left: 82px;
+    position: relative;
+}
+
+.icons{
+    position: absolute;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    left: 22px;
+    top: 0;
+}
+
+
+h3{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+}
+
+p{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.about-team{
+    text-align: center;
+    margin-bottom: 94px;
+}
+
+.team-list{
+    display: flex;
+    margin: 0 auto;
+}
+
+.card{
+    margin: 0px 20px 66px 0px;
+    width: 380px;
+    height: 560px;
+    position: relative;
+}
+
+.card-name {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+
+.card-post{
+    text-align: center;
+}
+
+.last{
+    margin-right: 0px;
+}
+
+.card-image{
+    margin-bottom: 28px;
+    width: 380px;
+    height: 470px;
+    background: #95e1d3;
+}
+
+footer{
+    border-top:solid 1px rgb(229, 229, 229);
+    height: 64px;
+}
+
+.footer-site{    
+    padding: 24px 0px 0px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    width: 320px;
+    margin-right: 0;
+    
+}
+
+.word{
+    color: #f6a1a1;
+}
+
+.overlay{
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    opacity: 0;
+}
+
+
+.layers{
+    position: absolute;  
+}
+
+.card:hover .overlay{
+    opacity: 1;
+    top: -10px;
+    left: -10px;
+}
+
+.card:hover .layers{
+    opacity: 0.1;
+    top: -10px;
+    left: -10px;   
+}
+.card:hover .social-img{
+    opacity: 1;
+}
+
+.social-img{
+    display: flex;
+    position: absolute;
+    background-color:inherit;
+    height: 56px;
+    width: 224px;
+    top: 196px;
+    left: 78px;
+    opacity: 0;
+}
+
+
+.overlay-social{
+    background-color:#fce38a;
+    height: 56px;
+    width: 56px;
+    border: solid 0px;
+    margin-right: 1px;
+    background-image: url(../icons/facebook.png);
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.overlay-social:hover{
+    background-color: #f38181;
+    cursor: pointer;
+}
+
+
+.icon-2{
+    background-image: url(../icons/twitter.png);
+}
+
+.icon-3{
+    background-image: url(../icons/pinterest.png);
+}
+
+.icon-4{
+    background-image: url(../icons/instagram.png);
+}
+
+
+
+.mail-action{
+    width: 400px;
+    height: 40px;
+    float: right;
+}
+
+input[type="email"]{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    line-height: 1.6;
+    height: 40px;
+    width: 230px;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="submit"]{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+    background: #95e1d3;
+    color: #ffffff;
+    text-align: center;
+}
+    
