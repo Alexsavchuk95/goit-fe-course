@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-gallery{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.preview{
+    margin: 0 auto;
+    display: flex;
+}
+
+li{
+    margin: 0 auto;
+    width: 200px;
+    list-style: none;
+}
