@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.form{
+    width: 1000px;
+    padding: 20px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-item{
+    width: 530px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
