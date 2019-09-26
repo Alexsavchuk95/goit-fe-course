@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <form class="form">
+      <div class="inputs">
+        <input type="text" id="id" name="id" placeholder="Enter user id">
+        <input type="text" id="name" name="name" placeholder="Enter user name">
+        <input type="text" id="age" name="age" placeholder="Enter user age">
+      </div>
+      <div class="btns">
+        <button class="btn" type="submit" data-action="getAll">Show all users</button>
+        <button class="btn" type="submit" data-action="getById">Show user by id</button>
+        <button class="btn" type="submit" data-action="add">Add user</button>
+        <button class="btn" type="submit" data-action="update">Edit user by id</button>
+        <button class="btn" type="submit" data-action="remove">Delete user by id</button>
+      </div>
+    </form>
+    <div class="container-result">
+      <p class="result"></p>
+    </div>
+  </div>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
